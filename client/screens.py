@@ -62,3 +62,4 @@ def countdown(screen, pos, size, time, penalty = False, start_time = 5):
     TextSurf, TextRect = text_objects(str(time), largestText, (0,0,0) if penalty else (time * 255 / start_time, time * 255 / start_time, time * 255 / start_time))
     TextRect.center = ((posx, posy))
     screen.blit(TextSurf, TextRect)
+    print("hjkh")
